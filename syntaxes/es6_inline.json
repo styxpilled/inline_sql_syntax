@@ -20,7 +20,7 @@
     "patterns": [
         {
             "contentName": "meta.embedded.sql",
-            "begin": "(?x)(\\s*?(\\w+\\.)?(?:sql|/\\*\\s*sql\\s*\\*/)\\s*)(`)",
+            "begin": "(?x)(\\s*?(\\w+\\.)?(?:sql|/\\*\\s*sql\\s*\\*/)\\s*)(\\(\\))?(`)",
             "beginCaptures": {
                 "0": {
                     "name": "string.template.ts, punctuation.definition.string.template.begin.ts"
