@@ -110,7 +110,8 @@
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
-                    "source.tsx"
+                    "source.tsx",
+                    "source.svelte"
                 ],
                 "embeddedLanguages": {
                     "meta.embedded.sql": "sql",
